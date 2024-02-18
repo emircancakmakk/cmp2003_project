@@ -5,9 +5,11 @@
 #include <map>
 #include <numeric>
 #include <cmath>
+
 double cosine_similarity(double *A, double *B, unsigned int Vector_Length);
 void selectionSort(int arr[], int arr2[], int n);
 void swap(int *xp, int *yp);
+
 struct userNode
 {
     std::vector<int> ratedMovies;
@@ -27,7 +29,6 @@ public:
     void calcSimilarityIndex();
     std::string getFileName();
     dataSet();
-    //private al test icin konuldu
 
 private:
     int userCount;
